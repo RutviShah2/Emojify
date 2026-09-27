@@ -1,0 +1,13 @@
+{
+  "test_accuracy": 0.486,
+  "notes": "Evaluated with src/evaluate.py on the full FER2013 test set (7178 images) after 11 epochs of training. See classification_report.txt and confusion_matrix.png for full breakdown.",
+  "per_class_f1": {
+    "angry": 0.392,
+    "disgust": 0.149,
+    "fear": 0.126,
+    "happy": 0.773,
+    "neutral": 0.482,
+    "sad": 0.408,
+    "surprise": 0.674
+  }
+}
